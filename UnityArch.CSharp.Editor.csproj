@@ -100,6 +100,12 @@
     <Reference Include="UnityEditor.iOS.Extensions.Common">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
+    <Reference Include="MeshBakerCore">
+      <HintPath>Assets\MeshBaker\scripts\MeshBakerCore.dll</HintPath>
+    </Reference>
+    <Reference Include="MeshBakerEvalVersionEditor">
+      <HintPath>Assets\MeshBaker\scripts\Editor\MeshBakerEvalVersionEditor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityArch.CSharp.Plugins.csproj">
@@ -132,6 +138,27 @@
     <Compile Include="Assets\BitStrap\Plugins\Util\Editor\TimerDrawer.cs" />
     <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
     <Compile Include="Assets\Editor\Doxygen\DoxygenWindow.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_BatchPrefabBakerEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_BoneWeightCopierEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_DisableHiddenAnimationsEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_GameObjectMaterialInfo.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_MBVersionConcreteEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_MeshBakerEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_MeshBakerEditorInternal.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_MeshBakerEditorWindow.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_MeshBakerGrouperEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_MultiMeshBakerEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_SearchFilters.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_ShaderTexturePropertyDrawer.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_TextureBakerEditor.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\MB3_TextureBakerEditorInternal.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\searchFilters\MB3_GroupByAlreadyAdded.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\searchFilters\MB3_GroupByLightmapIndex.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\searchFilters\MB3_GroupByMaterial.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\searchFilters\MB3_GroupByOutOfBoundsUVs.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\searchFilters\MB3_GroupByRenderType.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\searchFilters\MB3_GroupByShader.cs" />
+    <Compile Include="Assets\MeshBaker\scripts\Editor\searchFilters\MB3_GroupByStatic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BitStrap\Docs\Changelog.txt" />
@@ -140,6 +167,8 @@
     <None Include="Assets\BitStrap\Shaders\Scanline.shader" />
     <None Include="Assets\Editor\Doxygen\ReadMe.txt" />
     <None Include="Assets\Editor\Doxygen\Resources\BaseDoxyfile.txt" />
+    <None Include="Assets\MeshBaker\Release Notes.txt" />
+    <None Include="Assets\MeshBaker\docs\README.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />

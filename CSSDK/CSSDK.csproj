@@ -43,12 +43,6 @@
     <Compile Include="main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\CPPSDK\CPPSDK.vcxproj">
-      <Project>{89dacdca-fcf8-4f22-a287-20511d32ab93}</Project>
-      <Name>CPPSDK</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
