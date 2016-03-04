@@ -1,0 +1,5 @@
+D:\UnityProject\UnityArch\CSSDK\bin\Debug\CSSDK.dll
+D:\UnityProject\UnityArch\CSSDK\bin\Debug\CSSDK.pdb
+D:\UnityProject\UnityArch\CSSDK\obj\Debug\CSSDK.csprojResolveAssemblyReference.cache
+D:\UnityProject\UnityArch\CSSDK\obj\Debug\CSSDK.dll
+D:\UnityProject\UnityArch\CSSDK\obj\Debug\CSSDK.pdb

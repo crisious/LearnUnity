@@ -94,30 +94,6 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.EditorTestsRunner">
-      <HintPath>Library\UnityAssemblies\UnityEditor.EditorTestsRunner.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEditor.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\UnityAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEditor.Advertisements.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.TreeEditor">
-      <HintPath>Library\UnityAssemblies\UnityEditor.TreeEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
@@ -136,10 +112,32 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BitStrap\Plugins\Animation\AnimationParameters\Editor\AnimationParameterDrawer.cs" />
+    <Compile Include="Assets\BitStrap\Plugins\Animation\Editor\AnimatorControllerEditor.cs" />
+    <Compile Include="Assets\BitStrap\Plugins\Graphic\Editor\ParticleControllerDrawer.cs" />
+    <Compile Include="Assets\BitStrap\Plugins\Graphic\Editor\TweenShaderEditor.cs" />
+    <Compile Include="Assets\BitStrap\Plugins\Graphic\Editor\TweenShaderPropertyDrawer.cs" />
+    <Compile Include="Assets\BitStrap\Plugins\Helpers\Editor\EditorHelper.cs" />
+    <Compile Include="Assets\BitStrap\Plugins\Helpers\Editor\FileSystemHelper.cs" />
+    <Compile Include="Assets\BitStrap\Plugins\Helpers\Editor\ProjectBrowserHelper.cs" />
+    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\BehaviourButtonsEditor.cs" />
+    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\ComponentContextMenu.cs" />
+    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\EditorCoroutine.cs" />
+    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\Isolate.cs" />
+    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\LayerSelectorDrawer.cs" />
+    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\TagSelectorDrawer.cs" />
+    <Compile Include="Assets\BitStrap\Plugins\Math\Editor\NumberBoundsDrawer.cs" />
+    <Compile Include="Assets\BitStrap\Plugins\Math\Editor\SecureIntDrawer.cs" />
+    <Compile Include="Assets\BitStrap\Plugins\Util\Editor\EditorPrefProperty.cs" />
+    <Compile Include="Assets\BitStrap\Plugins\Util\Editor\TimerDrawer.cs" />
     <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
     <Compile Include="Assets\Editor\Doxygen\DoxygenWindow.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\BitStrap\Docs\Changelog.txt" />
+    <None Include="Assets\BitStrap\Docs\README.txt" />
+    <None Include="Assets\BitStrap\Shaders\BackgroundBlur.shader" />
+    <None Include="Assets\BitStrap\Shaders\Scanline.shader" />
     <None Include="Assets\Editor\Doxygen\ReadMe.txt" />
     <None Include="Assets\Editor\Doxygen\Resources\BaseDoxyfile.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
